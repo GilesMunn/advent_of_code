@@ -15,13 +15,6 @@ def intersection(a, b):
         c[i] = int(c[i])
     return c
 
-#def contains(a,b):
-    """
-    """
-
- #   intersection(a,b)
-  #  return
-
 count = 0 # number of assignment pairs that conain each other.
 for x in lines:
     x = x.split(",")
